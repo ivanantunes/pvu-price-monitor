@@ -1,4 +1,7 @@
-<img src="img/logo_pvu.png" width="500" heigth="500" style="margin: auto; display:block">
+<p align="center">
+    <img src="img/logo_pvu.png" width="500" heigth="500">
+</p>
+
 
 ## Installation of dependencies
 
@@ -79,4 +82,8 @@ npm start
 
 ## E-mail Output Example
 
-<img src="img/example_email.png" width="1280" heigth="720" style="margin: auto; display:block">
+<p align="center">
+<img src="img/example_email.png" width="1280" heigth="720">
+</p>
+
+

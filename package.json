@@ -7,9 +7,9 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "postversion": "git push && git push --tags",
-    "start": "ts-node src/test/index.ts",
+    "start": "ts-node src/index.ts",
     "watch": "nodemon -e ts -w ./src -x npm run watch:serve",
-    "watch:serve": "ts-node src/test/index.ts",
+    "watch:serve": "ts-node src/index.ts",
     "build": "rm -rf lib/ && tsc"
   },
   "keywords": [

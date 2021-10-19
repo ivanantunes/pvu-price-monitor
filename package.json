@@ -1,6 +1,6 @@
 {
   "name": "pvu-price-monitor",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "PVU PRICE MONITOR",
   "bin": "lib/index.js",
   "main": "lib/index.js",

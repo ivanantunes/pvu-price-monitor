@@ -6,7 +6,11 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "postversion": "git push && git push --tags",
+    "start": "ts-node src/test/index.ts",
+    "watch": "nodemon -e ts -w ./src -x npm run watch:serve",
+    "watch:serve": "ts-node src/test/index.ts",
+    "build": "rm -rf lib/ && tsc"
   },
   "keywords": [
     "pvu",
